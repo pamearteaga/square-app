@@ -1,0 +1,14 @@
+.Pago{
+  padding: 20px;
+  background:#f2f3f4;
+}
+
+.Pago button{
+  width: 100%;
+  height: 60px;
+  background: blue;
+  color: white;
+  font-size: 2em;
+  outline: none;
+  border: none;
+}
