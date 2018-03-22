@@ -6,7 +6,7 @@ import './Articulos.css';
 class Articulos extends Component{
   render() {
     return(
-      <div className="Articulos hidden">
+      <div id="btnAr" className="Articulos">
         {
           data.catalog.map((prod) => {
             return <div className="col-xs-6" key={prod.id}>

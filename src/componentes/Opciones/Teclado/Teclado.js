@@ -5,7 +5,7 @@ import './Teclado.css';
 class Teclado extends Component{
   render() {
     return(
-      <div className="Teclado">
+      <div id="btnTe" className="Teclado hidden">
         <div id="operacion" className="col-xs-12">
           <h1>$0</h1>
         </div>
