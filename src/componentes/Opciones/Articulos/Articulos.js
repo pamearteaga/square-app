@@ -42,8 +42,9 @@ class Articulos extends Component{
   render() {
     return(
       <div id="btnAr" className="Articulos">
-        <input type='text' id='search' placeholder='Busca entre tus productos' onKeyUp={this.filterProducts} ref={(input) => { this.inputFilter = input; }}/>
-
+        <div className='search-container'>
+          <input type='text' id='search' placeholder='Busca entre tus productos' onKeyUp={this.filterProducts} ref={(input) => { this.inputFilter = input; }}/>
+        </div>
         <button id="agregar" data-toggle="modal" data-target="#myModal"><span className="glyphicon glyphicon-plus" aria-hidden="true"></span> Agregar artículo</button>
         {
           this.state.productsForShow.map((prod) => { /* aquí cambié data.catalog por productsForShow */
