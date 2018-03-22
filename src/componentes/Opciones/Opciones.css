@@ -13,10 +13,14 @@
   outline: none;
   border: none;
   margin: 0;
-  border-right:1px solid white;
+  border-right: 1px solid white;
 }
 
 #teclado:hover, #articulos:hover, #caja:hover{
+  background: orange;
+}
+
+.orange{
   background: orange;
 }
 

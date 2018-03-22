@@ -1,8 +1,28 @@
 .Articulos{
-  margin-top:1em;
+
 }
 
-.Articulos .col-xs-6{
-  padding:1em;
+.Articulos .col-xs-6{ 
+  padding: 1.5em 1em;
   text-align: center;
 }
+
+#eliminar{
+  background: #f95745;
+  color: white;
+}
+
+#agregar{
+  width: 95%;
+
+  padding: 1em;
+  background: #f95745;
+  color: white;
+}
+
+.glyphicon p{
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px;
+}
+

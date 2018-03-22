@@ -21,7 +21,7 @@ class Opciones extends Component{
     return(
       <div className="container-fluid">
         <div className="row">
-          <div className="col-xs-4"><button id="articulos" onClick={this.handleAr}>Articulos</button></div>
+          <div className="col-xs-4"><button id="articulos" onClick={this.handleAr}>Catálogo</button></div>
           <div className="col-xs-4"><button id="teclado" onClick={this.handleTe}>Teclado</button></div>
           <div className="col-xs-4"><button id="caja">Caja</button></div> 
         </div>
