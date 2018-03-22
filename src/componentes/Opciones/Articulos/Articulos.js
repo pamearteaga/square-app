@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Modal from './Modal.js';
 import data from './mock.json';
 import './Articulos.css';
 
@@ -7,7 +8,7 @@ class Articulos extends Component{
   render() {
     return(
       <div id="btnAr" className="Articulos">
-        <button id="agregar"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Agregar artículo</button>
+        <button id="agregar" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Agregar artículo</button>
         {
           data.catalog.map((prod) => {
             return <div className="col-xs-6" key={prod.id}>
@@ -18,6 +19,7 @@ class Articulos extends Component{
             </div>;
           })
         }
+        <Modal/>
       </div>
     );
   }

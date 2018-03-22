@@ -14,10 +14,10 @@
 
 #agregar{
   width: 95%;
-
   padding: 1em;
-  background: #f95745;
+  background: #984ed8;
   color: white;
+  outline: none;
 }
 
 .glyphicon p{
