@@ -4,9 +4,9 @@ Replicar la app de Square POS
 
 Square POS es una de las mejores apps para punto de venta, sin embargo, no tiene aún soporte para latinoamérica.Esta es la app y aquí puedes ver un video de sus principales funciones. La idea es que crees una app parecida pero adaptada a las necesidades de tu país en términos de flujos, monedas e impuestos. <br>
 - ¿Qué funcionalidades debes priorizar? <br>
-     1.Catálogo de productos con precios y stocks. <br>
-     2.Cobros en efectivo y tarjeta de crédito (intenta usar un API). <br>
-     3.Cuadre de caja al final del día. <br>
+     - Catálogo de productos con precios y stocks. <br>
+     - Cobros en efectivo y tarjeta de crédito (intenta usar un API). <br>
+     - Cuadre de caja al final del día. <br>
 
 <img src="img/app2.png" alt="">
 
@@ -63,7 +63,7 @@ Testeo
 
 Script de testeo
 
-###Objetivos
+### Objetivos
 
 Detectar problemas en la navegación (si es fácil de usar e intuitiva). <br>
 Probar rapidez y facilidad en la creación de un inventario. <br>
