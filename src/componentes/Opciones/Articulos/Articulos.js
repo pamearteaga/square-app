@@ -15,6 +15,7 @@ class Articulos extends Component{
             <img className="img-responsive" src={prod.imageURL}/>
             <h3>{prod.name}</h3>
             <h4>$ {prod.price}</h4>
+            <h4 id="price">Stock: 5</h4>
             <div id="eliminar"><span class="glyphicon glyphicon-remove" aria-hidden="true"><p>Eliminar</p></span></div>
             </div>;
           })
