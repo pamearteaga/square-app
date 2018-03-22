@@ -57,7 +57,7 @@ SINTESIS Y DEFINICIÓN
 - Sus necesidades. 
 - Escenarios donde van a actuar: son descripciones de situaciones de uso para que podamos contextualizar la interacción del usuario con nuestro producto. 
 
-ejemplo:
+### Ejemplo:
 
 <img src="img/user3.png" alt="">
 
@@ -77,8 +77,8 @@ Averiguar si las traducciones de las palabras corresponden al vocabulario usado 
 
 
 
-
-Conoce todos los detalles de cada etapa en Google Drive : https://drive.google.com/drive/u/1/folders/1XLsnbcw4tOGEaTZCnJS0Saa8pzJTAcOb 
+### Conoce todos los detalles de cada etapa en Google Drive :
+https://drive.google.com/drive/u/1/folders/1XLsnbcw4tOGEaTZCnJS0Saa8pzJTAcOb 
 
 Conclusión y Recomendaciones:
 ---------------------------------
