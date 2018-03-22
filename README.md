@@ -22,8 +22,20 @@ Equipo de front end : Lexis, Leticia y Pamela.
 
 Planning:
 ----------------------------
-Presentacion de cada integrante del equipo.
-Conocernos y contarnos en que trabajamos mejor.
-Division del trabajo, priorizando tareas fundamentales a realizar en base al tiempo determinado de entrega.
+Presentacion de cada integrante del equipo. <br>
+Conocernos y contarnos en que trabajamos mejor. <br>
+Division del trabajo, priorizando tareas fundamentales a realizar en base al tiempo determinado de entrega. <br>
 
- 
+El proceso de diseño:
+-----------------------
+<img src="img/uxdesign.png" alt="">
+
+DESCUBRIMIENTO E INVESTIGACIÓN
+-------------------------------
+
+
+
+
+
+
+
