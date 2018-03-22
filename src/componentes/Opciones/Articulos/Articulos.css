@@ -1,6 +1,4 @@
-.Articulos{
 
-}
 
 .Articulos .col-xs-6{ 
   padding: 1.5em 1em;
@@ -13,7 +11,8 @@
 }
 
 #agregar{
-  width: 95%;
+  width: 100%;
+  margin-top: 1em;
   padding: 1em;
   background: #984ed8;
   color: white;
