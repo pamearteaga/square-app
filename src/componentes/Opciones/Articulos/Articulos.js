@@ -5,16 +5,14 @@ import './Articulos.css';
 
 class Articulos extends Component{
   render() {
-    //const catalogo = data.catalog;
     return(
-      <div className="Articulos">
+      <div className="Articulos hidden">
         {
           data.catalog.map((prod) => {
             return <div className="col-xs-6" key={prod.id}>
             <img className="img-responsive" src={prod.imageURL}/>
             <h3>{prod.name}</h3>
             <p>$ {prod.price}</p>
-            <button>Add to cart</button>
             </div>;
           })
         }

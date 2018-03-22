@@ -1,0 +1,14 @@
+.Teclado .col-xs-4{
+  border: 1px solid #cfd0d1;
+}
+
+.col-xs-4 h1{
+  margin:20px;
+  color:#666;
+  text-align: center;
+}
+
+#operacion h1{
+  text-align: right;
+  color: black;
+}

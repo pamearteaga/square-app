@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Articulos from './Articulos/Articulos.js';
+import Teclado from './Teclado/Teclado.js';
 import './Opciones.css';
 
 class Opciones extends Component{
@@ -12,9 +13,10 @@ class Opciones extends Component{
           <div className="col-xs-4"><button id="caja">Caja</button></div> 
         </div>
 
-        <div id="main" className="col-xs-12">
+        <div id="main">
           <div>
-          <Articulos />
+          <Articulos/>
+          <Teclado/>
           </div>
         </div> 
 
