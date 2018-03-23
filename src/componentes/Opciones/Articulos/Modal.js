@@ -13,7 +13,7 @@ class Modal extends Component {
               </div>
               <div className="modal-body">
 
-                <p>Leti pon tu componente aqui :)</p>
+                <span>Leti pon tu componente aqui :)</span>
 
               </div>
               <div className="modal-footer">

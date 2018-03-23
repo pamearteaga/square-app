@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class PrimeraPagina extends Component{
 render() {
   return (
-    <div><p>hola Primera pagina</p></div>
+    <div><span>hola Primera pagina</span></div>
   )
 }
 
