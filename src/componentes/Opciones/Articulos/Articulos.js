@@ -14,6 +14,7 @@ class Articulos extends Component{
     }
     this.filterProducts = this.filterProducts.bind(this);
     this.addProduct = this.addProduct.bind(this); //para no perder el scope
+    this.removeProduct = this.removeProduct.bind(this);
   }
 
 /* función para buscar productos */
@@ -57,6 +58,15 @@ class Articulos extends Component{
   //this.db.push().set({name: productName, img: productImg, stock: productStock})
  }
 
+  removeProduct(productId) {
+  let products = this.state.products;
+  let arr = products.indexOf(productId);
+  products.splice(arr, 1);
+  this.setState({
+    products
+  })
+ }
+
   render() {
     return(
       <div id="btnAr" className="Articulos">
@@ -71,7 +81,7 @@ class Articulos extends Component{
             <h3>{prod.name}</h3>
             <h4>$ {prod.price}</h4>
             <h4 id="price">Stock: 5</h4>
-            <div id="eliminar"><span className="glyphicon glyphicon-remove" aria-hidden="true"><p>Eliminar</p></span></div>
+            <div id="eliminar" onClick={this.removeProduct}><span className="glyphicon glyphicon-remove" aria-hidden="true"><p>Eliminar</p></span></div>
             </div>;
           })
         }
