@@ -58,13 +58,16 @@ class Articulos extends Component{
   //this.db.push().set({name: productName, img: productImg, stock: productStock})
  }
 
-  removeProduct(productId) {
+  removeProduct(product) {
+    console.log(product)
   let products = this.state.products;
-  let arr = products.indexOf(productId);
+  let arr = products.indexOf(product);
+  console.log(arr)
   products.splice(arr, 1);
   this.setState({
     products
   })
+  console.log(products)
  }
 
  sumarProd(event) {
@@ -93,7 +96,7 @@ class Articulos extends Component{
             <h4>$<span id="price">{prod.price}</span></h4>
             <h4>Stock: 5</h4>
             </div>
-            <div id="eliminar" onClick={this.removeProduct}><span className="glyphicon glyphicon-remove" aria-hidden="true"><p>Eliminar</p></span></div>
+            <div id="eliminar" onClick={(e) => this.removeProduct(prod, e)}><span className="glyphicon glyphicon-remove" aria-hidden="true"><p>Eliminar</p></span></div>
             </div>;
           })
         }
