@@ -150,6 +150,13 @@ class Teclado extends Component{
     operacion.innerHTML = "0";
     btn.innerHTML = "0";
   }
+  teclaSuma = (event) => {
+    const btn = document.getElementById('totalCompra');
+    const operacion = document.getElementById('operacion');
+    operacion.innerHTML = "0";
+    btn.innerHTML = "0";
+  }
+
 
 
 
@@ -161,40 +168,40 @@ class Teclado extends Component{
           <h1>$<span id="operacion">0</span></h1>
         </div>
         <div className="col-xs-4" onClick={this.tecla1}>
-          <h1 id="1">1</h1>
+          <h1>1</h1>
         </div>
         <div className="col-xs-4" onClick={this.tecla2}>
-          <h1 id="2">2</h1>
+          <h1>2</h1>
         </div>
-        <div className="col-xs-4 tecla">
-          <h1 id="3">3</h1>
-        </div>
-
-        <div className="col-xs-4 tecla">
-          <h1 id="4">4</h1>
-        </div>
-        <div className="col-xs-4 tecla">
-          <h1 id="5">5</h1>
-        </div>
-        <div className="col-xs-4 tecla">
-          <h1 id="6">6</h1>
+        <div className="col-xs-4" onClick={this.tecla3}>
+          <h1>3</h1>
         </div>
 
-        <div className="col-xs-4 tecla">
-          <h1 id="7">7</h1>
+        <div className="col-xs-4" onClick={this.tecla4}>
+          <h1>4</h1>
         </div>
-        <div className="col-xs-4 tecla">
-          <h1 id="8">8</h1>
+        <div className="col-xs-4" onClick={this.tecla5}>
+          <h1>5</h1>
         </div>
-        <div className="col-xs-4 tecla">
-          <h1 id="9">9</h1>
+        <div className="col-xs-4" onClick={this.tecla6}>
+          <h1>6</h1>
         </div>
 
-        <div className="col-xs-4 tecla">
-          <h1 id="c">C</h1>
+        <div className="col-xs-4" onClick={this.tecla7}>
+          <h1>7</h1>
         </div>
-        <div className="col-xs-4 tecla">
-          <h1 id="0">0</h1>
+        <div className="col-xs-4" onClick={this.tecla8}>
+          <h1>8</h1>
+        </div>
+        <div className="col-xs-4" onClick={this.tecla9}>
+          <h1>9</h1>
+        </div>
+
+        <div className="col-xs-4" onClick={this.teclaBorrar}>
+          <h1>C</h1>
+        </div>
+        <div className="col-xs-4" onClick={this.tecla0}>
+          <h1>0</h1>
         </div>
         <div className="col-xs-4 tecla">
           <h1 id="suma">+</h1>
