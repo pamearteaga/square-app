@@ -2,7 +2,7 @@
 Replicar la app de Square POS
 -----------------------------------------
 
-Square POS es una de las mejores apps para punto de venta, sin embargo, no tiene aún soporte para latinoamérica.Esta es la app y aquí puedes ver un video de sus principales funciones. La idea es que crees una app parecida pero adaptada a las necesidades de tu país en términos de flujos, monedas e impuestos. <br>
+Square POS es una de las mejores apps para punto de venta, sin embargo, no tiene aún soporte para latinoamérica. El reto consiste en crear una app parecida, pero adaptada a las necesidades de Chile en términos de flujos, monedas e impuestos. <br>
 - ¿Qué funcionalidades debes priorizar? <br>
      - Catálogo de productos con precios y stocks. <br>
      - Cobros en efectivo y tarjeta de crédito (intenta usar un API). <br>
@@ -20,7 +20,7 @@ Participantes:
 Equipo UX : Alexandra y Agustina. <br>
 Equipo de front end : Lexis, Leticia y Pamela.
 
-Planning:
+Reunión Kick off: (planning)
 ----------------------------
 Presentacion de cada integrante del equipo. <br>
 Conocernos y contarnos en que trabajamos mejor. <br>
@@ -36,11 +36,11 @@ Conversaciones entre el equipo para poder analizar cuáles serían las metodolog
 
 ### Definicion de nuestra audiencia:
 
-Emprendedores que estan empezando una empresa  y cuentan con un maximo de 300 clientes. 
+Emprendedores de pequeña y mediana empresa (PYME) con un maximo de 300 clientes. 
 
 ### Investigacion:
 
-- Realizacion de una preguntas para hacer un test de guerrilla a usuarios en comercios cercanos.
+- Script de entrevista para hacer un test de guerrilla a usuarios en comercios cercanos.
  
 - Encuesta Online. 
 
@@ -48,14 +48,16 @@ Emprendedores que estan empezando una empresa  y cuentan con un maximo de 300 cl
 
 - Analisis en terminos de Politica de inversion, flujos, monedas e impuestos en Chile.
 
+- Reclamos en linea de los usuarios de la app.
+
 SINTESIS Y DEFINICIÓN
 ----------------------------
 
+Con todos los datos reunidos de las distintas etapas de la investigación, realizamos una síntesis de los descubrimientos.
+
+<img src="img/sintesis.png" alt="">
+
 - Creacion de tres User persona para definir tipo de usuarios que comparten una serie de características comunes. Deben recopilar información de:
-- Patrones de conducta de esos usuarios. 
-- Sus objetivos. 
-- Sus necesidades. 
-- Escenarios donde van a actuar: son descripciones de situaciones de uso para que podamos contextualizar la interacción del usuario con nuestro producto. 
 
 ### Ejemplo:
 
