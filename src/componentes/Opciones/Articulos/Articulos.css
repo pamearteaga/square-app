@@ -7,17 +7,33 @@
 
 #eliminar{
   background: #f95745;
+  border: 1px solid #f95745;
   color: white;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 
-#agregar{
+#eliminar:hover {
+  background: white;
+  color: #f95745;
+  transition: all 0.5s ease-in-out;
+}
+
+#agregar {
   width: 100%;
   margin-top: 1em;
-  padding: 0.5em;
-  background: white;
+  padding: 10px;
+  background: #fcfcfc;
   color: grey;
   outline: none;
   border: 1px dotted #666;
+  transition: all 0.3s ease-in-out;
+}
+
+#agregar:hover {
+  border: 1px solid grey;
+  color: grey;
+  transition: all 0.3s ease-in-out;
 }
 
 .glyphicon p{
@@ -90,3 +106,10 @@
   color: grey;
 }
 
+h5 {
+  font-weight: 600;
+}
+
+.container-fluid {
+  background-color: #fcfcfc;
+}

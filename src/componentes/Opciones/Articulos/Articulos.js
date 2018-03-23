@@ -59,7 +59,7 @@ class Articulos extends Component{
  }
 
   removeProduct(product) {
-    console.log(product)
+  console.log(product)
   let products = this.state.products;
   let arr = products.indexOf(product);
   console.log(arr)
@@ -70,7 +70,8 @@ class Articulos extends Component{
   console.log(products)
  }
 
- sumarProd(event) {
+/* le agregué que le quitara un lemento al stock al sumar el item a la compra */
+ sumarProd(product) {
   const btn = parseInt(document.getElementById('totalCompra').innerHTML);
   const price = parseInt(document.getElementById('price').innerHTML);
   if (btn === 0 ) {
@@ -78,6 +79,14 @@ class Articulos extends Component{
     } else {
        document.getElementById('totalCompra').innerHTML = btn + price;
     }
+  let products = this.state.products;
+  let obj = products.indexOf(product); //busca dónde se ubica este producto en l data
+  let stock = product.stock - 1; // le resta uno al stock
+  products[obj].stock = stock; // actualiza el stock
+  this.setState({ //actualiza el estado
+    products
+  })
+  //console.log(products)
  }
 
   render() {
@@ -89,15 +98,18 @@ class Articulos extends Component{
         <button id="agregar" data-toggle="modal" data-target="#myModal"><span className="glyphicon glyphicon-plus" aria-hidden="true"></span> Agregar artículo</button>
         {
           this.state.productsForShow.map((prod) => { /* aquí cambié data.catalog por productsForShow */
-            return <div className="col-xs-6" key={prod.id}>
-            <div onClick={this.sumarProd}>
-            <img className="img-responsive" src={prod.imageURL}/>
-            <h3>{prod.name}</h3>
-            <h4>$<span id="price">{prod.price}</span></h4>
-            <h4>Stock: {prod.stock}</h4>
-            </div>
-            <div id="eliminar" onClick={(e) => this.removeProduct(prod, e)}><span className="glyphicon glyphicon-remove" aria-hidden="true"><p>Eliminar</p></span></div>
-            </div>;
+            if (prod.stock > 0) {
+              return <div className="col-xs-6" key={prod.id}>
+              <div onClick={(e) => this.sumarProd(prod, e)}>
+              <img className="img-responsive" src={prod.imageURL}/>
+              <h4>{prod.name}</h4>
+              <h5>$<span id="price">{prod.price}</span></h5>
+              <h5>Stock: {prod.stock}</h5>
+              </div>
+              <div id="eliminar" onClick={(e) => this.removeProduct(prod, e)}><span className="glyphicon glyphicon-remove" aria-hidden="true"><p>Eliminar</p></span></div>
+              </div>;
+            }
+
           })
         }
         <Modal

@@ -6,6 +6,7 @@ import Opciones from './../../componentes/Opciones/Opciones.js';
 import {DB_CONFIG} from './../../componentes/Config/Config.js';
 import './index.css';
 import FaGoogle from 'react-icons/lib/fa/google';
+import FaSignOut from 'react-icons/lib/fa/sign-out';
 
 class Login extends Component {
   constructor() {
@@ -21,7 +22,7 @@ class Login extends Component {
   renderLoginButton() {
     if (this.props.user) {
       return (
-        <button onClick={this.props.handleLogout} className="Logout-btn">Log-out</button>
+        <button onClick={this.props.handleLogout} className="Logout-btn"><FaSignOut /></button>
       );
     } else {
       return (
@@ -32,24 +33,20 @@ class Login extends Component {
           </div>
         </div>
       )
-
     }
   }
 
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-
-        </header>
         <div className="App-intro">
           {this.renderLoginButton()}
         </div>
-        {this.props.user && ( 
-          <div> 
+        {this.props.user && (
+          <div>
           <div className="User">
-            <img width="50" src={this.props.user.photoURL} alt={this.props.user.displayName} className='UserImg' />
-            Welcome, {this.props.user.displayName}
+            <img src={this.props.user.photoURL} alt={this.props.user.displayName} className='UserImg' />
+            <span className='username'>{this.props.user.displayName}</span>
           </div>
           <div>
             <BotonPago />
@@ -61,10 +58,8 @@ class Login extends Component {
               addProduct={this.props.addProduct}
             />
           </div>
-         
           </div>
         )}
-
       </div>
     );
   }

@@ -38,3 +38,38 @@ html, body {
     left: 20px;
     top: 24px;
   }
+
+  .Logout-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 35px;
+    height: 35px;
+    font-size: 18px;
+    color: grey;
+    border: 1px solid lightgrey;
+    border-radius: 50%;
+  }
+
+  .Logout-btn:hover {
+    background-color: transparent;
+  }
+
+  .User {
+    text-align: left;
+    padding: 10px;
+  }
+
+  .username {
+    padding: 0 10px;
+    color: grey;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+
+  .UserImg {
+    border-radius: 50%;
+    width: 35px;
+    height: auto;
+  }
