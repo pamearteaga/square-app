@@ -2,43 +2,63 @@
   "catalog": [
     {
       "id": 1,
-      "imageURL": "http://placehold.it/150/1b21a0/ffffff",
-      "name": "product A",
-      "type": "",
-      "price": 250,
-      "currency": "$"
+      "imageURL": "https://truffle-assets.imgix.net/pxqrocxwsjcc_6OcJeUMaWIYOmKgsK6IwWc_galaxy-cupcakes_squareThumbnail_en-US.jpeg",
+      "name": "Estrellitas",
+      "price": 600
     },
     {
       "id": 2,
-      "imageURL": "http://placehold.it/150/bc4125/ffffff",
-      "name": "product B",
-      "type": "",
-      "price": 350,
-      "currency": "$"
+      "imageURL": "http://thecakeboutique-nj.com/wp-content/uploads/2018/02/550394c428e268868aa73e509302b84c-neopolitan-cupcakes-ice-cream-cupcakes.jpg",
+      "name": "Tricolor",
+      "price": 550
     },
     {
       "id": 3,
-      "imageURL": "http://placehold.it/150/5abc25/ffffff",
-      "name": "product C",
-      "type": "",
-      "price": 200,
-      "currency": "$"
+      "imageURL": "https://truffle-assets.imgix.net/pxqrocxwsjcc_6zR2aNu6vCUEm4qu4CGoOa_ROSE%CC%81%20CHAMPAGNE%20CUPCAKES-SQUARE-NO%20GRAPHIC.jpg",
+      "name": "Durazno",
+      "price": 530
     },
     {
       "id": 4,
-      "imageURL": "http://placehold.it/150/ebf742/ffffff",
-      "name": "product D",
-      "type": "",
-      "price": 500,
-      "currency": "$"
+      "imageURL": "https://truffle-assets.imgix.net/pxqrocxwsjcc_2YOHvx88ackqCOsSQ0mwwU_victoria-sponge-cake-cupcake_squareThumbnail_en-US.jpeg",
+      "name": "Frutilla",
+      "price": 620
     },
     {
       "id": 5,
-      "imageURL": "http://placehold.it/150/d121c8/ffffff",
-      "name": "product D",
-      "type": "",
-      "price": 100,
-      "currency": "$"
+      "imageURL": "https://cdn.shopify.com/s/files/1/0759/4297/products/RainbowCupcakeFeature1_1024x1024.jpg?v=1477495717",
+      "name": "Tropical",
+      "price": 650
+    },
+    {
+      "id": 6,
+      "imageURL": "https://truffle-assets.imgix.net/8ae6aa6d-highway-unicorn-cupcakes-sc.jpg",
+      "name": "Galaxia",
+      "price": 750
+    },
+    {
+      "id": 7,
+      "imageURL": "https://truffle-assets.imgix.net/pxqrocxwsjcc_2MfALemeIgWAeuGcSM8C4O_raspberry-triffle-cupcakes_squareThumbnail_en.jpeg",
+      "name": "Red Velvet",
+      "price": 500
+    },
+    {
+      "id": 8,
+      "imageURL": "https://cdn.shopify.com/s/files/1/0759/4297/products/BubblepopCupcakeFeature1_1024x1024.png?v=1477496516",
+      "name": "Chicle",
+      "price": 750
+    },
+    {
+      "id": 9,
+      "imageURL": "https://truffle-assets.imgix.net/pxqrocxwsjcc_1vodwrVPNyCMmAMqSEKaAg_vegan-choc-avocado-cupcakes_squareThumbnail_en-US.jpeg",
+      "name": "Chocolate",
+      "price": 620
+    },
+    {
+      "id": 10,
+      "imageURL": "https://truffle-assets.imgix.net/pxqrocxwsjcc_7fVTOhksQoooU4qUUo2MmU_VEGAN%20APPLE%20CRUMBLE_SQUARE_NO%20GRAPHIC.jpg",
+      "name": "Maní",
+      "price": 560
     }
   ]
 }
