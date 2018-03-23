@@ -15,7 +15,7 @@ class ModalPago extends Component {
                 <h3>¡Transacción realizada!</h3>             
               </div>
               <div className="modal-footer">
-                <button type="button" className="btn btn-danger" data-dismiss="modal">Listo</button>
+                <button type="button" className="btn btn-danger modal-button" data-dismiss="modal">Listo</button>
               </div>
             </div>
           </div>

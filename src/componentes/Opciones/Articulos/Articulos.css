@@ -34,3 +34,59 @@
   border: 1px solid orange;
   padding: 5px;
 }
+
+
+#myModal {
+  padding: 0!important;
+}
+
+.modal-button {
+  width: 100%;
+  background-color: orange;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 10px 0;
+  border: 2px solid orange;
+  transition: all 0.5s ease-in-out;
+}
+
+.modal-button:hover {
+  color: orange;
+  border: 2px solid orange;
+  background-color: transparent;
+  transition: all 0.5s ease-in-out;
+}
+
+#myModal hr {
+  height: 6px;
+  background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+  border: 0;
+  margin: 5px 0;
+}
+
+#myModal .close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#myModal .modal-header {
+  border: none;
+  padding: 20px 15px 10px 15px;
+  text-align: center;
+}
+
+.input-container input {
+  border: 1px solid orange;
+  padding: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.input-container label {
+  font-size: 12px;
+  color: grey;
+}
+
