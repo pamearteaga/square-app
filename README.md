@@ -1,4 +1,5 @@
 
+
 Replicar la app de Square POS
 -----------------------------------------
 
@@ -18,13 +19,17 @@ Laboratoria
 Participantes:
 --------------------------
 Equipo UX : Alexandra y Agustina. <br>
-Equipo de front end : Lexis, Leticia y Pamela.
+Equipo de Front-End : Lexis, Leticia y Pamela.
 
 Reunión Kick off: (planning)
 ----------------------------
 Presentacion de cada integrante del equipo. <br>
 Conocernos y contarnos en que trabajamos mejor. <br>
 Division del trabajo, priorizando tareas fundamentales a realizar en base al tiempo de entrega del producto. <br>
+
+### El equipo de front end y sus tareas:
+
+La estructuracion de los componentes, funcion de caja y teclado utilizando Javascipt , React, React Bootstrap, React icons. Implementacion de Firebase. Maquetado y funcionalidad.
 
 ### El equipo de frond end y sus tareas:
  
@@ -160,10 +165,7 @@ Leyenda: <br>	L: Logrado / ML: medianamente logrado /	NL: No logrado
 - Inventario, teclado y caja tengan otra forma, como pestaña en vez de botón. <br>
 
 
-
-
-
-
+### En base a esta investigacion, concluimos que "Listok" sera nuestra posible solucion adaptada a la sociedad Chilena en cuanto a los terminos requeridos del reto.
 
 
 ### Conoce todos los detalles de cada etapa en Google Drive :
@@ -181,4 +183,3 @@ A veces existen ocasiones donde los problemas se pueden convertir en grandes opo
 ###  “El talento gana partidos, pero el trabajo en equipo y la inteligencia ganan campeonatos”
 
 Muy contentas como equipo en realizar este reto! <br>	Nos llevamos un gran aprendizaje!
-
