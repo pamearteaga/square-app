@@ -95,23 +95,24 @@ Script de testeo square POS
 ### Tareas 
 
 Usando la app square POS en su versión en español. <br>
-Leyenda: <br>	L: Logrado 	ML: medianamente logrado	NL: No logrado
+Leyenda: <br>	L: Logrado /	ML: medianamente logrado /	NL: No logrado
 
 <img src="img/cuadrotest.png" alt="">
 
 ### Conclusiones
 
-A los usuarios les resultó fácil crear categorías, pero les costó un poco entender que los artículos se creaban dentro de las categorías. <br>
-No completaron todos los datos de los artículos en la creación. Después de un rato de uso e intentar vender se dieron cuenta de que se podía completar el valor del artículo, la cantidad de éstos, además del nombre y la imagen. <br>
-Ambos usuarios manifestaron dudas con la pantalla de inicio, y cómo volver a ella. Ésto les generó gran conflicto. <br>
-Además se sintieron muy inseguros con respecto a la forma de realizar una venta, e incluso uno de los usuarios no logró vender, no entendió las opciones del menú y que la aplicación le permitía hacer ventas. <br>
-Ambos creen que el recibo de venta no es necesario, ya que es para ellas, no para el comprador. <br> 
-Ambos usuarios gustan del informe de ventas, aunque creen que es un poco extenso y que hay cosas que no usarían, como los descuentos por ejemplo. <br>
-Les interesa ver cuánto vendieron, qué es lo que más vendieron, e incluso los horarios de más ventas. Les resultaría útil personalizar el informe de ventas según sus necesidades. <br>
-Ambos presentaron gran confusión con las palabras del menú Proceso de pago y Transacciones.
-En el inventario, la aplicación no descontó el artículo vendido. <br>
-No encontraron la forma de cerrar la caja desde el celular, al parecer la aplicación no lo permite desde ese tipo de dispositivos. <br>
-Cerrar sesión no les resultó difícil, pero preferirían que vaya dentro del menú, no dentro de los ajustes. <br>
+- A los usuarios les resultó fácil crear categorías, pero les costó un poco entender que los artículos se creaban dentro de las categorías. <br>
+- No completaron todos los datos de los artículos en la creación. Después de un rato de uso e intentar vender se dieron cuenta de que se podía completar el valor del artículo, la cantidad de éstos, además del nombre y la imagen. <br>
+- Ambos usuarios manifestaron dudas con la pantalla de inicio, y cómo volver a ella. Ésto les generó gran conflicto. <br>
+- Además se sintieron muy inseguros con respecto a la forma de realizar una venta, e incluso uno de los usuarios no logró vender, no entendió las opciones del menú y que la aplicación le permitía hacer ventas. <br>
+- Ambos creen que el recibo de venta no es necesario, ya que es para ellas, no para el comprador. <br> 
+- Ambos usuarios gustan del informe de ventas, aunque creen que es un poco extenso y que hay cosas que no usarían, como los descuentos por ejemplo. <br>
+- Les interesa ver cuánto vendieron, qué es lo que más vendieron, e incluso los horarios de más ventas. <br>
+- Les resultaría útil personalizar el informe de ventas según sus necesidades. <br>
+- Ambos presentaron gran confusión con las palabras del menú Proceso de pago y Transacciones. <br>
+- En el inventario, la aplicación no descontó el artículo vendido. <br>
+- No encontraron la forma de cerrar la caja desde el celular, al parecer la aplicación no lo permite desde ese tipo de dispositivos. <br>
+- Cerrar sesión no les resultó difícil, pero preferirían que vaya dentro del menú, no dentro de los ajustes. <br>
 
 ### Con ésta retroalimentación, se decidió: 
 
@@ -121,6 +122,7 @@ Cerrar sesión no les resultó difícil, pero preferirían que vaya dentro del m
 
 Script de testeo vistas aplicación propia
 -------------------------------------
+
 ### Objetivos
 
 - Detectar problemas en la navegación (si es fácil de usar e intuitiva). <br>
@@ -132,9 +134,28 @@ Script de testeo vistas aplicación propia
 ### Tareas
 
 Usando las vistas del maquetado de nuestra aplicación. <br>
-Leyenda: <br>	L: Logrado 	ML: medianamente logrado	NL: No logrado
+Leyenda: <br>	L: Logrado / ML: medianamente logrado /	NL: No logrado
 
 <img src="img/cuadro2.png" alt="">
+
+###  Conclusiones
+
+- A los usuarios les resultó fácil ingresar a la aplicación y cerrar sesión. <br>
+- Para regresar al inicio, o a la primera vista, extrañaron la flecha atrás. Pensaron que el logo también podría llevar al inicio y que el botón inventario era el que llevaba a la primera vista. <br>
+- Ambos usuarios manifestaron dudas con respecto al botón cobrar. Uno por inseguridad de qué haría, y otro porque consideró innecesario que estuviera en todas las vistas. <br>
+- El botón agregar artículo tuvo un poco de ambigüedad en lo que se entendió por su función. Se entendía que era para agregar un producto al inventario, pero también se pensó que era para agregar un producto a la compra. <br>
+- El botón eliminar de los productos del inventario les generó una duda, si era para eliminar el producto o para quitar uno del stock del producto. <br>
+
+###  Con ésta retroalimentación, se decidió:
+
+- Cambiar algunos textos de los botones, para darle una ayuda al usuario y que sepa qué es lo que está haciendo. <br>
+- Dado el tiempo limitado que poseemos para presentar el proyecto, hacer un sketch de lo que sería la versión 3.0 de la aplicación. <br>
+- Revisar algunas palabras de los llamados a acción. <br>
+- Uniformar los colores. <br>
+- Inventario, teclado y caja tengan otra forma, como pestaña en vez de botón. <br>
+
+
+
 
 
 
