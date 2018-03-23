@@ -4,6 +4,8 @@ import PrimeraPagina from './../../componentes/PrimeraPagina/PrimeraPagina.js'
 import BotonPago from './../../componentes/Pago/BotonPago.js';
 import Opciones from './../../componentes/Opciones/Opciones.js';
 import {DB_CONFIG} from './../../componentes/Config/Config.js';
+import './index.css';
+import FaGoogle from 'react-icons/lib/fa/google';
 
 class Login extends Component {
   constructor() {
@@ -20,15 +22,14 @@ class Login extends Component {
     if (this.props.user) {
       return (
         <button onClick={this.props.handleLogout} className="Logout-btn">Log-out</button>
-     
       );
     } else {
       return (
         // si no esta logueado se renderiza el boton y toda la pa ta
-        <div> 
-          <PrimeraPagina />
-          
-        <button className="Login-btn" onClick={this.props.handleAuth}> Log In with Google </button>
+        <div className='primera-pagina'>
+          <div className='btn-container'>
+            <button className="Login-btn" onClick={this.props.handleAuth}> <div className='icon'><FaGoogle /></div> Log in with Google </button>
+          </div>
         </div>
       )
 
@@ -41,9 +42,9 @@ class Login extends Component {
         <header className="App-header">
 
         </header>
-        <p className="App-intro">
+        <div className="App-intro">
           {this.renderLoginButton()}
-        </p>
+        </div>
         {this.props.user && ( 
           <div> 
           <div className="User">
