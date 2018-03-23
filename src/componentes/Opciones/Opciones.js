@@ -41,7 +41,13 @@ class Opciones extends Component{
 
         <div id="main">
           <div>
-          <Articulos/>
+          <Articulos
+            stock={this.props.stock}
+            img={this.props.img}
+            products={this.props.products}
+            removeProduct={this.props.removeProduct}
+            addProduct={this.props.addProduct}
+          />
           <Teclado/>
           <Caja/>
           </div>
