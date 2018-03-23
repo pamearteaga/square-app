@@ -29,7 +29,7 @@ class Login extends Component {
         // si no esta logueado se renderiza el boton y toda la pa ta
         <div className='primera-pagina'>
           <div className='btn-container'>
-            <button className="Login-btn" onClick={this.props.handleAuth}> <div className='icon'><FaGoogle /></div> Log in with Google </button>
+            <button className="Login-btn" onClick={this.props.handleAuth}> <div className='icon'><FaGoogle /></div> Inicia sesión con Google </button>
           </div>
         </div>
       )
