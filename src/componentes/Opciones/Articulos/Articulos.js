@@ -67,6 +67,16 @@ class Articulos extends Component{
   })
  }
 
+ sumarProd(event) {
+  const btn = parseInt(document.getElementById('totalCompra').innerHTML);
+  const price = parseInt(document.getElementById('price').innerHTML);
+  if (btn === 0 ) {
+         document.getElementById('totalCompra').innerHTML = price;
+    } else {
+       document.getElementById('totalCompra').innerHTML = btn + price;
+    }
+ }
+
   render() {
     return(
       <div id="btnAr" className="Articulos">
@@ -77,10 +87,12 @@ class Articulos extends Component{
         {
           this.state.productsForShow.map((prod) => { /* aquí cambié data.catalog por productsForShow */
             return <div className="col-xs-6" key={prod.id}>
+            <div onClick={this.sumarProd}>
             <img className="img-responsive" src={prod.imageURL}/>
             <h3>{prod.name}</h3>
-            <h4>$ {prod.price}</h4>
-            <h4 id="price">Stock: 5</h4>
+            <h4>$<span id="price">{prod.price}</span></h4>
+            <h4>Stock: 5</h4>
+            </div>
             <div id="eliminar" onClick={this.removeProduct}><span className="glyphicon glyphicon-remove" aria-hidden="true"><p>Eliminar</p></span></div>
             </div>;
           })
