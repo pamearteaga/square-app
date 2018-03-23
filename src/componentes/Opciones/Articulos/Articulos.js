@@ -76,7 +76,7 @@ class Articulos extends Component{
           })
         }
         <Modal
-        addProduct={this.addProduct}/> />
+        addProduct={this.addProduct}/>
       </div>
     );
   }
