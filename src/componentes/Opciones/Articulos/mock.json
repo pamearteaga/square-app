@@ -4,61 +4,71 @@
       "id": 1,
       "imageURL": "https://truffle-assets.imgix.net/pxqrocxwsjcc_6OcJeUMaWIYOmKgsK6IwWc_galaxy-cupcakes_squareThumbnail_en-US.jpeg",
       "name": "Estrellitas",
-      "price": 600
+      "price": 600,
+      "stock": 8
     },
     {
       "id": 2,
       "imageURL": "http://thecakeboutique-nj.com/wp-content/uploads/2018/02/550394c428e268868aa73e509302b84c-neopolitan-cupcakes-ice-cream-cupcakes.jpg",
       "name": "Tricolor",
-      "price": 550
+      "price": 550,
+      "stock": 2
     },
     {
       "id": 3,
       "imageURL": "https://truffle-assets.imgix.net/pxqrocxwsjcc_6zR2aNu6vCUEm4qu4CGoOa_ROSE%CC%81%20CHAMPAGNE%20CUPCAKES-SQUARE-NO%20GRAPHIC.jpg",
       "name": "Durazno",
-      "price": 530
+      "price": 530,
+      "stock": 1
     },
     {
       "id": 4,
       "imageURL": "https://truffle-assets.imgix.net/pxqrocxwsjcc_2YOHvx88ackqCOsSQ0mwwU_victoria-sponge-cake-cupcake_squareThumbnail_en-US.jpeg",
       "name": "Frutilla",
-      "price": 620
+      "price": 620,
+      "stock": 12
     },
     {
       "id": 5,
       "imageURL": "https://cdn.shopify.com/s/files/1/0759/4297/products/RainbowCupcakeFeature1_1024x1024.jpg?v=1477495717",
       "name": "Tropical",
-      "price": 650
+      "price": 650,
+      "stock": 7
     },
     {
       "id": 6,
       "imageURL": "https://truffle-assets.imgix.net/8ae6aa6d-highway-unicorn-cupcakes-sc.jpg",
       "name": "Galaxia",
-      "price": 750
+      "price": 750,
+      "stock": 23
     },
     {
       "id": 7,
       "imageURL": "https://truffle-assets.imgix.net/pxqrocxwsjcc_2MfALemeIgWAeuGcSM8C4O_raspberry-triffle-cupcakes_squareThumbnail_en.jpeg",
       "name": "Red Velvet",
-      "price": 500
+      "price": 500,
+      "stock": 2
     },
     {
       "id": 8,
       "imageURL": "https://cdn.shopify.com/s/files/1/0759/4297/products/BubblepopCupcakeFeature1_1024x1024.png?v=1477496516",
       "name": "Chicle",
-      "price": 750
+      "price": 750,
+      "stock": 53
     },
     {
       "id": 9,
       "imageURL": "https://truffle-assets.imgix.net/pxqrocxwsjcc_1vodwrVPNyCMmAMqSEKaAg_vegan-choc-avocado-cupcakes_squareThumbnail_en-US.jpeg",
       "name": "Chocolate",
-      "price": 620
+      "price": 620,
+      "stock": 6
     },
     {
       "id": 10,
       "imageURL": "https://truffle-assets.imgix.net/pxqrocxwsjcc_7fVTOhksQoooU4qUUo2MmU_VEGAN%20APPLE%20CRUMBLE_SQUARE_NO%20GRAPHIC.jpg",
       "name": "Maní",
-      "price": 560
+      "price": 560,
+      "stock": 27
     }
   ]
 }

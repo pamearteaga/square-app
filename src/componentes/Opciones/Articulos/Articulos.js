@@ -94,7 +94,7 @@ class Articulos extends Component{
             <img className="img-responsive" src={prod.imageURL}/>
             <h3>{prod.name}</h3>
             <h4>$<span id="price">{prod.price}</span></h4>
-            <h4>Stock: 5</h4>
+            <h4>Stock: {prod.stock}</h4>
             </div>
             <div id="eliminar" onClick={(e) => this.removeProduct(prod, e)}><span className="glyphicon glyphicon-remove" aria-hidden="true"><p>Eliminar</p></span></div>
             </div>;
