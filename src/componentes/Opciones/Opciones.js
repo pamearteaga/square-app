@@ -43,7 +43,7 @@ class Opciones extends Component{
   render() {
     return(
       <div className="container-fluid">
-        <div className="row">
+        <div className="row mini-nav">
           <div className="col-xs-4"><button id="articulos" className="btnActivo" onClick={this.handleAr}>Inventario</button></div>
           <div className="col-xs-4"><button id="teclado" className="btnInactivo" onClick={this.handleTe}>Teclado</button></div>
           <div className="col-xs-4"><button id="caja" className="btnInactivo" onClick={this.handleCa}>Caja</button></div> 
