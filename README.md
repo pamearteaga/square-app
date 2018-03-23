@@ -26,6 +26,11 @@ Presentacion de cada integrante del equipo. <br>
 Conocernos y contarnos en que trabajamos mejor. <br>
 Division del trabajo, priorizando tareas fundamentales a realizar en base al tiempo de entrega del producto. <br>
 
+### El equipo de frond end y sus tareas:
+ 
+La estructuracion de los componentes, funcion de caja y teclado utilizando Javascipt , React, React Bootstrap, React icons. Implementacion de Firebase. Maquetado y funcionalidad. 
+
+
 El proceso de diseño:
 -----------------------
 <img src="img/uxdesign.png" alt="">
@@ -173,5 +178,7 @@ Se encontró que en el mercado de medios de pago Chileno, actualmente existe un 
 A veces existen ocasiones donde los problemas se pueden convertir en grandes oportunidades, y quizás la actual condición existente en el mercado Chileno sea una de ellas. Actualmente existe una demanda generada por la Fiscalía Nacional Económica con respecto a la posición monopolista de Transbank, por lo que existe la posibilidad de que el mercado se abra a nuevos competidores generando grandes oportunidades.
 
 
+###  “El talento gana partidos, pero el trabajo en equipo y la inteligencia ganan campeonatos”
 
+Muy contentas como equipo en realizar este reto! <br>	Nos llevamos un gran aprendizaje!
 
