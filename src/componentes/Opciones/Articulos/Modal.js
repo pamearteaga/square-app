@@ -29,6 +29,7 @@ class Modal extends Component {
               <div className="modal-header">
                 <button type="button" className="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                 <h4>Agrega un Producto</h4>
+                <hr/>
               </div>
               <div className="modal-body">
                 <div className='input-container'>
@@ -47,7 +48,7 @@ class Modal extends Component {
                 </div>
               </div>
               <div className="modal-footer">
-                <button type="button" className="btn" data-dismiss="modal" onClick={this.addProduct}>Agregar</button>
+                <button type="button" className="btn modal-button" data-dismiss="modal" onClick={this.addProduct}>Agregar</button>
               </div>
             </div>
           </div>

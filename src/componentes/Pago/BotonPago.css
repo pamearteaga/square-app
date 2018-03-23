@@ -12,3 +12,39 @@
   outline: none;
   border: none;
 }
+
+#modalpago {
+  padding: 0!important;
+}
+
+#modalpago button.modal-button {
+  width: 100%;
+  background-color: orange;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 10px 0;
+  border: 2px solid orange;
+  transition: all 0.5s ease-in-out;
+  font-size: 16px;
+  height: auto;
+}
+
+#modalpago button.modal-button:hover {
+  color: orange;
+  border: 2px solid orange;
+  background-color: transparent;
+  transition: all 0.5s ease-in-out;
+}
+
+
+#modalpago .modal-body {
+  border: none;
+  padding: 20px;
+  text-align: center;
+}
+
+#modalpago .modal-body h3 {
+  margin: 0;
+}
