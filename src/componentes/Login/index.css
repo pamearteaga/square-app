@@ -4,11 +4,37 @@ html, body {
   min-height: 100vh;
 }
 
+button:focus {
+  outline: none;
+}
+
   .primera-pagina {
-    background-color: black;
     height: 100vh;
     position: relative;
+    background: linear-gradient(177deg, #5492f7, #9cc1e4, #daa49a);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 5s ease infinite;
+    -moz-animation: AnimationName 5s ease infinite;
+    animation: AnimationName 5s ease infinite;
+
+    @-webkit-keyframes AnimationName {
+        0%{background-position:0% 94%}
+        50%{background-position:100% 7%}
+        100%{background-position:0% 94%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:0% 94%}
+        50%{background-position:100% 7%}
+        100%{background-position:0% 94%}
+    }
+    @keyframes AnimationName { 
+        0%{background-position:0% 94%}
+        50%{background-position:100% 7%}
+        100%{background-position:0% 94%}
+    }
   }
+
 
   .primera-pagina .btn-container {
     position: absolute;
