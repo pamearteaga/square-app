@@ -13,6 +13,7 @@ class Articulos extends Component{
     /* productsForShow es lo que se va a desplegar en la página, en caso de no hacer ninguna búsqueda o tener el input vacío, productsForShow siempre será igual a products, que es nuestra data original con info desde firebase, si se cambia algo en el input, productsForShow se transformará en un nuevo array con productos cuyo nombre coincida con lo ingresado en el input */
     }
     this.filterProducts = this.filterProducts.bind(this);
+    this.addProduct = this.addProduct.bind(this); //para no perder el scope
   }
 
 /* función para buscar productos */
@@ -39,6 +40,23 @@ class Articulos extends Component{
     //console.log(newProducts)
   }
 
+  /* función para agregar un producto, esta la enviaremos al modal */
+  addProduct(productName, productImg, productStock, productPrice) {
+  let products = this.state.products; // let products = this.state.products;
+  console.log(products);
+  products.push({
+    id: products.length + 1,
+    name: productName,
+    price: productPrice,
+    imageURL: productImg,
+    stock: productStock
+  })
+  this.setState({
+    products //producst: products
+  })
+  //this.db.push().set({name: productName, img: productImg, stock: productStock})
+ }
+
   render() {
     return(
       <div id="btnAr" className="Articulos">
@@ -57,7 +75,8 @@ class Articulos extends Component{
             </div>;
           })
         }
-        <Modal/>
+        <Modal
+        addProduct={this.addProduct}/> />
       </div>
     );
   }
