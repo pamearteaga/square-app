@@ -64,18 +64,79 @@ Con todos los datos reunidos de las distintas etapas de la investigación, reali
 <img src="img/user3.png" alt="">
 
 
+Ideación
+----------------------
+
+Considerando los principales funciones requeridas en el reto, y que uno de los problemas más comunes mencionado en la etapa de investigación fue el manejo del inventario, se decidió darle prioridad a la creación de la funcionalidad del inventario de la aplicación, considerando los siguientes elementos en cada producto del inventario:
+
+- Imagen. <br>
+- Nombre. <br>
+- Valor. <br>
+- Stock. <br>
+- Opción de eliminar el producto del inventario. <br>
+- Descontar el producto del stock una vez que se venda. <br>
+- Agregar nuevos productos al inventario. <br>
+
+
 TESTEO
 ------------------
 
-Script de testeo
+Script de testeo square POS
+-------------------------------
 
 ### Objetivos
 
-Detectar problemas en la navegación (si es fácil de usar e intuitiva). <br>
-Probar rapidez y facilidad en la creación de un inventario. <br>
-Detectar problemas en la navegación de una compra. <br>
-Detectar problemas o facilidad en el cierre de caja. <br>
-Averiguar si las traducciones de las palabras corresponden al vocabulario usado en Chile. <br>
+- Detectar problemas en la navegación (si es fácil de usar e intuitiva). <br>
+- Probar rapidez y facilidad en la creación de un inventario. <br>
+- Detectar problemas en la navegación de una compra. <br>
+- Detectar problemas o facilidad en el cierre de caja. <br>
+- Averiguar si las traducciones de las palabras corresponden al vocabulario usado en Chile. <br>
+
+### Tareas 
+
+Usando la app square POS en su versión en español. <br>
+Leyenda: <br>	L: Logrado 	ML: medianamente logrado	NL: No logrado
+
+<img src="img/cuadrotest.png" alt="">
+
+### Conclusiones
+
+A los usuarios les resultó fácil crear categorías, pero les costó un poco entender que los artículos se creaban dentro de las categorías. <br>
+No completaron todos los datos de los artículos en la creación. Después de un rato de uso e intentar vender se dieron cuenta de que se podía completar el valor del artículo, la cantidad de éstos, además del nombre y la imagen. <br>
+Ambos usuarios manifestaron dudas con la pantalla de inicio, y cómo volver a ella. Ésto les generó gran conflicto. <br>
+Además se sintieron muy inseguros con respecto a la forma de realizar una venta, e incluso uno de los usuarios no logró vender, no entendió las opciones del menú y que la aplicación le permitía hacer ventas. <br>
+Ambos creen que el recibo de venta no es necesario, ya que es para ellas, no para el comprador. <br> 
+Ambos usuarios gustan del informe de ventas, aunque creen que es un poco extenso y que hay cosas que no usarían, como los descuentos por ejemplo. <br>
+Les interesa ver cuánto vendieron, qué es lo que más vendieron, e incluso los horarios de más ventas. Les resultaría útil personalizar el informe de ventas según sus necesidades. <br>
+Ambos presentaron gran confusión con las palabras del menú Proceso de pago y Transacciones.
+En el inventario, la aplicación no descontó el artículo vendido. <br>
+No encontraron la forma de cerrar la caja desde el celular, al parecer la aplicación no lo permite desde ese tipo de dispositivos. <br>
+Cerrar sesión no les resultó difícil, pero preferirían que vaya dentro del menú, no dentro de los ajustes. <br>
+
+### Con ésta retroalimentación, se decidió: 
+
+- Hacer menos vistas, ya que los usuarios pedían que fuera lo más breve y sencillo posible, mientras menos clicks, mejor. <br>
+- Eliminar el menú de hamburguesa, y dar acceso rápido a las principales secciones, que son inventario, teclado (para agregar los precios) y caja. <br>
+- Usar palabras con las que el usuario chileno esté familiarizado, para facilitar el uso de la aplicación, ya que eso fue una de las principales razones de conflicto. <br>
+
+Script de testeo vistas aplicación propia
+-------------------------------------
+### Objetivos
+
+- Detectar problemas en la navegación (si es fácil de usar e intuitiva). <br>
+- Probar rapidez y facilidad en la creación de un inventario. <br>
+- Detectar problemas en la navegación de una compra. <br>
+- Averiguar si las palabras reemplazadas corresponden al vocabulario usado en Chile. <br>
+
+
+### Tareas
+
+Usando las vistas del maquetado de nuestra aplicación. <br>
+Leyenda: <br>	L: Logrado 	ML: medianamente logrado	NL: No logrado
+
+<img src="img/cuadro2.png" alt="">
+
+
 
 
 
