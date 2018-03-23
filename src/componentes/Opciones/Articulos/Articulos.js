@@ -47,7 +47,7 @@ class Articulos extends Component{
   render() {
     return(
       <div id="btnAr" className="Articulos">
-<firebase
+
         <div className="products-container">
         <header>
           <h1>Catálogo</h1>

@@ -4,6 +4,7 @@ import './BotonPago.css';
 class BotonPago extends Component{
   handleCobrar = (event) => {
     const btn = parseInt(document.getElementById('totalCompra').innerHTML);
+    document.getElementById('totalCompra').innerHTML = 0;
     const total = parseInt(document.getElementById('sumaTotal').innerHTML);
     const ventas = parseInt(document.getElementById('sumaVentas').innerHTML);
     const btnTotal = btn + total;
