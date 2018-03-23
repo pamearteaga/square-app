@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ModalPago from './ModalPago.js';
 import './BotonPago.css';
 
 class BotonPago extends Component{
@@ -21,7 +22,8 @@ class BotonPago extends Component{
   render() {
     return(
       <div className="Pago">
-        <button id="cobrar" onClick={this.handleCobrar}>Cobrar $<span id="totalCompra">0</span></button> 
+        <button data-toggle="modal" data-target="#modalpago" id="cobrar" onClick={this.handleCobrar}>Cobrar $<span id="totalCompra">0</span></button> 
+        <ModalPago />
       </div>
     );
   }
