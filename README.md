@@ -10,10 +10,8 @@ Square POS es una de las mejores apps para punto de venta, sin embargo, no tiene
 
 ![listock](https://user-images.githubusercontent.com/32284071/38209224-1009b9be-368a-11e8-8cce-79ba512b10a8.jpg)
 
-
-Desarrollado para
-------------------
-Laboratoria
+## Desarrollado para 
+[Laboratoria](http://laboratoria.la)
 
 Participantes:
 --------------------------
