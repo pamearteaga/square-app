@@ -1,7 +1,6 @@
 
 
 # Replicar la app de Square POS
------------------------------------------
 
 Square POS es una de las mejores apps para punto de venta, sin embargo, no tiene aún soporte para latinoamérica. El reto consiste en crear una app parecida, pero adaptada a las necesidades de Chile en términos de flujos, monedas e impuestos. <br>
 - ¿Qué funcionalidades debes priorizar? <br>
@@ -9,7 +8,7 @@ Square POS es una de las mejores apps para punto de venta, sin embargo, no tiene
      - Cobros en efectivo y tarjeta de crédito (intenta usar un API). <br>
      - Cuadre de caja al final del día. <br>
 
-<img src="img/app2.png" alt="">
+![listock](https://user-images.githubusercontent.com/32284071/38209224-1009b9be-368a-11e8-8cce-79ba512b10a8.jpg)
 
 
 Desarrollado para
